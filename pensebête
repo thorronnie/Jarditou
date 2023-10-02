@@ -1,0 +1,18 @@
+.parent{ 
+   display: inline-block;
+   width: 100%;
+}
+.paragraphe{
+   width: 60%
+}
+.colonne{
+   width: 39%;
+   background-color: grey;
+   padding-top: 35%;
+
+}
+
+#box{
+   display: inline-block;
+
+}
