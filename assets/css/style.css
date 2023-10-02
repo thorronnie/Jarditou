@@ -1,5 +1,6 @@
 .Logo {
    width: 30%;
+
 }
 
 header { 
@@ -29,6 +30,7 @@ nav{
 }
                
 .promo{ 
+   display: block;
    width: 100%; 
 }
 
