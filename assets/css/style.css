@@ -1,6 +1,5 @@
 .Logo {
    width: 30%;
-
 }
 
 header { 
@@ -15,18 +14,18 @@ header {
 }  
 
 .lien{
-   display: flex ;
    color: white;
+   text-decoration: none;
+   display: inline-block;
 }
 
 .nav_lien{
    display: flex;
-   gap: 5%
-}
-
-nav{ 
-   vertical-align: auto ;
-   background-color: black;
+   background-color: black; 
+   justify-content: space-around;
+   margin: 0.5rem;
+   padding: 1rem;
+   font-size: medium;
 }
                
 .promo{ 
@@ -39,12 +38,11 @@ body{
 }
 
 .parent{
-   display: flex;
+      display: flex;
 }
 
 #box{
    flex: 1;
-
 
 }
 .colonne{
