@@ -23,7 +23,6 @@ header {
    display: flex;
    background-color: black; 
    justify-content: space-around;
-   margin: 0.5rem;
    padding: 1rem;
    font-size: medium;
 }
