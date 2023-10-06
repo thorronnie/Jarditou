@@ -40,7 +40,7 @@ body{
       display: flex;
 }
 
-#box{
+#box{ 
    flex: 1;
 
 }
