@@ -9,7 +9,7 @@ header {
 }
 
 .inline { 
-   font-size: 200%;
+   font-size: 2rem;
    padding: 5%;
    justify-content: center;
 }  
@@ -25,7 +25,6 @@ header {
    background-color: black; 
    justify-content: space-around;
    padding: 1rem;
-   font-size: medium;
 }
                
 .promo{ 
@@ -41,9 +40,8 @@ body{
       display: flex;
 }
 
-.colonne{
-   padding-right: 32rem;
-   padding-bottom: 35rem;
+aside{
+   padding-right: 30%;
    background-color: gray;
 }
 
@@ -53,24 +51,21 @@ footer{
 html{
    font-size: 100%;
 }
+
 /*taille image tableau*/
 img{
    width: 20rem;
    height: 20 rem;
 }
 
-@media screen and (max-width: 768px)
-{
+@media screen and (max-width: 768px){ 
+
 aside{
    display: none;
 }
-#burger-icon{
-   width: 30px;
-   height: 2px;
-   background: white;
-   display: inline-block;
-   position: relative;
-
+ul{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
-   
 }
