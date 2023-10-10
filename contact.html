@@ -30,9 +30,10 @@
       <main>*Ces zones sont obligatoires</main>
       <fieldset>
         <legend>Vos coordonnées</legend>
-        <label for="nom">Votre nom*:</label><input type="text" name="nom" id="nom"><br>
+        <label for="nom">Votre nom*:</label><input type="text" name="nom" id="nom" required><br>
         <label for="prenom">Votre prénom*:</label><input type="text" name="prenom" id="prenom"><br>
-        <label for="sexe" name="sexe" id="sexe_f" >Sexe:</label><input type="radio" name="sexe" id="sexe_f" value="Feminin">Féminin 
+        <span>Sexe:</span>
+        <label for="sexe" name="sexe" id="sexe_f" ></label><input type="radio" name="sexe" id="sexe_f" value="Feminin">Féminin 
         <label for="sexe" name="sexe" id="sexe_m"></label><input type="radio" name="sexe" id="sexe_m" value="Masculin">Masculin<br>
         <label for="ddn">Date de naissance:</label><input type="date" name="ddn" id="ddn"><br>
         <label for="cp">Code postal*:</label><input type="text" name="cp" id="cp"><br>
@@ -44,7 +45,7 @@
        <legend>Votre demande</legend>
        <label for="sujet">Sélectionner votre sujet*:</label>
        <select name="sujet" id="sujet">
-        <option value="veuillez Sélectionner votre sujet">Veuillez Sélectionner votre sujet</option>        
+        <option value hidden disabled selected ="veuillez Sélectionner votre sujet">Veuillez Sélectionner votre sujet</option>        
         <option value="mes commandes">Mes commandes</option>
         <option value="question sur un produit">Question sur un produit</option>
         <option value="réclamation">Réclamation</option>
