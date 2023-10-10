@@ -3,14 +3,15 @@
 }
 
 header { 
-   display: flex; 
-   gap: 15%; 
+   display: flex;
+   gap: 15%;
    color: brown;
 }
 
 .inline { 
    font-size: 200%;
    padding: 5%;
+   justify-content: center;
 }  
 
 .lien{
@@ -40,11 +41,9 @@ body{
       display: flex;
 }
 
-#box{ 
-   flex: 1;
-
-}
 .colonne{
+   padding-right: 32rem;
+   padding-bottom: 35rem;
    background-color: gray;
 }
 
@@ -53,4 +52,25 @@ footer{
 }
 html{
    font-size: 100%;
+}
+/*taille image tableau*/
+img{
+   width: 20rem;
+   height: 20 rem;
+}
+
+@media screen and (max-width: 768px)
+{
+aside{
+   display: none;
+}
+#burger-icon{
+   width: 30px;
+   height: 2px;
+   background: white;
+   display: inline-block;
+   position: relative;
+
+}
+   
 }
