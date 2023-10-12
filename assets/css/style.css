@@ -4,14 +4,16 @@
 
 header { 
    display: flex;
-   gap: 15%;
+   align-items: center;
    color: brown;
+   width: 100%;
 }
 
 .inline { 
    font-size: 2rem;
-   padding: 5%;
-   justify-content: center;
+   text-align: center;
+   width: 70%;
+   text-decoration: underline;
 }  
 
 .lien{
@@ -21,12 +23,16 @@ header {
 }
 
 .nav_lien{
+   
    display: flex;
    background-color: black; 
    justify-content: space-around;
    padding: 1rem;
+
 }
-               
+li:hover{
+   background-color: blue;
+}            
 .promo{ 
    display: block;
    width: 100%; 
@@ -55,10 +61,15 @@ html{
 /*taille image tableau*/
 img{
    width: 20rem;
-   height: 20 rem;
 }
 
+/*Média queries*/
+
 @media screen and (max-width: 768px){ 
+
+.inline{
+   font size
+}
 
 aside{
    display: none;
